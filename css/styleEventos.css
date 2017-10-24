@@ -1,0 +1,169 @@
+
+@font-face {
+	font-family: "Sullivan";
+	src: url(../fuentes/Sullivan.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "kindergarten";
+	src: url(../fuentes/kindergarten.ttf) format("truetype");
+}
+ 
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* contenido Bodas */
+#contenidoBodas {
+	border: none;
+	margin: auto;
+	background-color: #FAFAFA;
+	width: 1200px;
+	height: 750px;
+}
+
+	/* Estilo de la galeria */
+#contenidoBodas #cuadro {
+	background-color: #FAFAFA;
+	width: 1200px;
+	height: 220px;
+}
+
+.photo {
+	margin-top: 40px;
+	margin-left: 100px;
+	float: left;
+
+}
+
+p.texto {
+	margin-top: 70px;
+	margin-right: 100px;
+	float: right;
+	font: oblique 120% sans-serif bold;
+	padding: 10px 20px;
+	font-family: Sullivan;
+	font-size: 20px;
+  	border: PowderBlue 5px double;
+  	border-top-left-radius: 20px;
+  	border-bottom-right-radius: 20px;
+}
+
+.photo img {
+	width: 250px;
+	height: 170px;
+}
+
+	/* Estilos modal */
+.modal {
+	display: none;
+}
+
+.modal:target {
+	background: rgba(0,0,0,0.8);
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.imagen {
+	width: 100%
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.imagen a {
+	color: #fff;
+	font-size: 100px;
+	text-decoration: none;
+}
+
+.imagen a:nth-child(2) {
+	margin: 70px;
+	height: 100%;
+	flex-shrink: 2;
+}
+
+.imagen img {
+	width: 600px;
+	height: 400px;
+	max-width: 100%;
+	border: 7px solid #fff;
+	box-sizing: border-box;
+}
+
+.cerrar {
+	display: block;
+	background: #fff;
+	width: 25px;
+	height: 25px;
+	margin: auto;
+	text-align: center;
+	text-decoration: none;
+	font-size: 15px;
+	border-color: #000;
+	padding: 5px;
+	border-radius: 50%;
+	line-height: 25px;
+}
+
+
+/* contenido Comuniones */
+#contenidoComuniones {
+	border: none;
+	background-color: #FAFAFA;
+	margin: auto;
+	width: 100%;
+	height: 730px;
+}
+
+#contenidoComuniones iframe.Comuniones {
+	border: none;
+	margin: auto;
+	margin-top: 10px;
+	width: 100%;
+	height: 630px;
+}
+
+#contenidoComuniones p.texto2 {
+	margin: auto;
+	margin-top: 20px;
+	border: 1px solid black;
+	width: 600px;
+	font: oblique 120% sans-serif bold;
+	padding: 10px 10px;
+	font-family: Sullivan;
+	font-size: 20px;
+  	border: PowderBlue 5px double;
+  	border-top-left-radius: 20px;
+  	border-bottom-right-radius: 20px;
+}
+
+
+/* contenido OtrosEventos */
+#contenidoOtrosEventos {
+	margin: auto;
+	width: 1200px;
+	height: 750px;
+	background-color: #ECF5F8;
+}
+
+.textobras {
+	padding-left: 10%;
+	padding-top: 15%;
+	font-family: kindergarten;
+	font-size: 20px;
+	color: #424242;
+}
+
+.log {
+	padding-top: 5%;
+	padding-left: 30%;
+	width: 500px;
+}

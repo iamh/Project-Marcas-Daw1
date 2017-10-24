@@ -1,0 +1,59 @@
+
+.slider {
+	margin: auto;
+	width: 1200px;
+	height: 728px;
+	overflow: hidden; /* para los elementos que estan fuera no se vean */
+}
+
+.slider ul {
+	display: flex; /* coloca las imagenes a la lado de la otra */
+	padding: 0;
+	width: 800%;
+
+	animation: cambio 120s infinite alternate linear; /* se repite infinito */
+	animation-timing-function: ease-in; 
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 1200px;
+	height: 728px;
+}
+
+/* paradas */
+@keyframes cambio { 
+	0% {margin-left: 0;}
+	10% {margin-left: 0;}
+
+	13% {margin-left: -100%;}
+	23% {margin-left: -100%;}
+
+	26% {margin-left: -200%;}
+	36% {margin-left: -200%;}
+
+	39% {margin-left: -300%;}
+	49% {margin-left: -300%;}
+
+	52% {margin-left: -400%;}
+	62% {margin-left: -400%;}
+
+	65% {margin-left: -500%;}
+	75% {margin-left: -500%;}
+
+	78% {margin-left: -600%;}
+	88% {margin-left: -600%;}
+
+	91% {margin-left: -700%;}
+	100% {margin-left: -700%;}
+
+}
+
+.off {
+	float: right;
+} 
+
